@@ -1,0 +1,14 @@
+{
+  "name": "vue-translate",
+  "version": "0.0.1",
+  "description": "A translator directive for Vue",
+  "author": "Hsiaoming Yang <me@lepture.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lepture/vue-translate.git"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "vue": "^0.12.10"
+  }
+}
