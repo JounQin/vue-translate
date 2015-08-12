@@ -39,3 +39,22 @@ you can pass it to `v-trans`.
 <!-- will be translated to -->
 <div data-message="你好">你好</div>
 ```
+
+### Translate with variables
+
+The translation messages can contain variables:
+
+```js
+translate.messages = {
+  "hello {{ name }}": "你好 {{ name }}"
+};
+```
+
+If `{{ name }}` is `lepture`:
+
+```html
+<div v-trans>hello {{ name }}</div>
+
+<!-- will be translated to -->
+<div>你好 lepture</div>
+```
